@@ -1,0 +1,1 @@
+rm -rf ../outputs/vgg13; CUDA_VISIBLE_DEVICES=1 python ./train.py vgg13 -i ../data/xenium_preview_rep1_wholecell/image -t ../data/xenium_preview_rep1_wholecell/singlecell_normalized.h5ad -o ../outputs -md vgg13 -bz 512 -tb -tp 6006
